@@ -1,0 +1,50 @@
+/*------fonts--------*/
+
+@font-face{
+font-family: ChalkTitle;
+    src: url(../fonts/PWChalk2.ttf);
+
+}
+
+/*--------index----------*/
+.chalk{
+background-color: grey;
+  
+   
+}
+.chalk h1{
+text-align: center;
+    margin-top: 150px;
+font-family: ChalkTitle;
+    font-size: 90px;
+     color: white;
+}
+.info{
+position: relative;
+    display: inline-block;
+ left: 42%
+}
+.item{
+color: black;
+}
+
+#list li{
+    margin-top: 10px;
+cursor:pointer;
+    list-style: none;
+    position: relative;
+    left: -150px;
+text-align: left;
+    border-bottom: 2px solid white;
+    font-size: 30px;
+    color: white;
+    width: 400px;
+}
+.trash{
+float: right;
+    cursor:default;
+}
+.strike{
+text-decoration: line-through;
+
+}
