@@ -8,6 +8,9 @@ $(document).ready(function(){
         $new.show();
         $item.hide();
         $add.hide();
+    $('li').hide().each(function(index){
+    $(this).delay(450 * index).fadeIn(1000);
+    });
     // Use enter to add items to the list
     // click on enter or click on plus sign to add items to the list
 $('#item').keyup(function (event){
@@ -25,7 +28,6 @@ $('#item').keyup(function (event){
 			alert('Please enter text to add to the list'); // sends message 
 		} else {
 			$('li:last').after('<li><span>'+ txtval +'</span><img class="trash" src="Images/glyphicons_016_bin.png"/></li>'); //adds itmes to list
-      
 		txtbox.value =''; // removes item from input box
 		};
 	});
