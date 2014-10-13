@@ -12,13 +12,12 @@ margin-top: 40px;
     
 }
 .chalk{
-background-color: grey;
+background-color:rgba( 151, 216, 236, 0.595 );
   
    
 }
 .chalk h1{
 text-align: center;
-    margin-top: 150px;
 font-family: ChalkTitle;
     font-size: 90px;
      color: black;
@@ -44,6 +43,7 @@ text-align: left;
     font-size: 30px;
     color: black;
     width: 400px;
+     text-shadow: 1px 1px white;
     font-family:ChalkTitle; 
 }
 .trash{
