@@ -5,14 +5,23 @@ font-family: ChalkTitle;
     src: url(../fonts/orange_juice.ttf);
 
 }
+@font-face{
+font-family: List;
+    src: url(../fonts/MNS_TRIAL.ttf);
+
+}
 
 /*--------index----------*/
+body{
+background-image: url(../Images/wood.jpg);
+
+}
 .container{
 margin-top: 40px;
     
 }
 .chalk{
-background-color:rgba( 151, 216, 236, 0.595 );
+background-color:rgba( 234, 229, 231, 0.715 );
   
    
 }
@@ -42,8 +51,8 @@ text-align: left;
     font-size: 30px;
     color: black;
     width: 400px;
-     text-shadow: 1px 1px white;
-    font-family:ChalkTitle; 
+    font-family:List; 
+    letter-spacing: 2px;
 }
 .trash{
 float: right;
@@ -51,6 +60,7 @@ float: right;
 }
 .strike{
 text-decoration:line-through;
+    text-decoration-color: red;
 }
 input{
 width: 500px;
@@ -61,7 +71,6 @@ position: relative;
 #add{
     position: relative;
     right: 160px;
-    
 }
 #New{
 position: relative;
